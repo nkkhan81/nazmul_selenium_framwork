@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
 import java.util.List;
@@ -100,6 +101,11 @@ public class BasePage {
             Assert.fail("Element not found with this locator "+locator.toString());
             return "Screenshot taken";
         }
+    }
+
+    public Select selectDropDownMenu(By locator){
+        Select dropDown = new Select(DriverWrapperChrome.getChromeDriver().findElement(locator));
+        return dropDown;
     }
 
     public WebElement findElementByList(By locator, String comparableText){

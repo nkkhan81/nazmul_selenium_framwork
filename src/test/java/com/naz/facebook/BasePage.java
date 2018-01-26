@@ -2,6 +2,7 @@ package com.naz.facebook;
 
 import com.naz.browserInvocation.DriverWrapperChrome;
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -17,20 +18,88 @@ public class BasePage {
     //eg. click, insert text in a field, get text from an element
 
     public void clickOn(By locator){
-        DriverWrapperChrome.getChromeDriver().findElement(locator).click();
+        try {
+
+            DriverWrapperChrome.getChromeDriver().findElement(locator).click();
+
+        } catch (NoSuchElementException nse) {
+            nse.printStackTrace();
+            System.out.println("Screenshot taken");
+            Assert.fail("Element not found with this locator "+locator.toString());
+        }
     }
 
     public void setValueToInputField(By locator, String value){
-        DriverWrapperChrome.getChromeDriver().findElement(locator).sendKeys();
+        try {
+
+            DriverWrapperChrome.getChromeDriver().findElement(locator).sendKeys();
+
+        } catch (NoSuchElementException nse) {
+            nse.printStackTrace();
+            System.out.println("Screenshot taken");
+            Assert.fail("Element not found with this locator "+locator.toString());
+        }
     }
 
     public String getTextFromElement(By locator){
-        return DriverWrapperChrome.getChromeDriver().findElement(locator).getText();
+        try {
+
+            return DriverWrapperChrome.getChromeDriver().findElement(locator).getText();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            Assert.fail("Element not found with this locator "+locator.toString());
+            return "Screenshot taken";
+        }
+    }
+
+    public boolean isElementEnabled(By locator){
+        try {
+
+            return DriverWrapperChrome.getChromeDriver().findElement(locator).isEnabled();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            Assert.fail("Element not found with this locator "+locator.toString());
+            return false;
+        }
+    }
+
+    public boolean isElementDisplayed(By locator){
+        try {
+
+            return DriverWrapperChrome.getChromeDriver().findElement(locator).isDisplayed();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            Assert.fail("Element not found with this locator "+locator.toString());
+            return false;
+        }
+    }
+
+    public boolean isElementSelected(By locator){
+        try {
+
+            return DriverWrapperChrome.getChromeDriver().findElement(locator).isSelected();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            Assert.fail("Element not found with this locator "+locator.toString());
+            return false;
+        }
     }
 
     public String getAttributeValue(By locator, String attributeName){
-        WebElement element = DriverWrapperChrome.getChromeDriver().findElement(locator);
-        return element.getAttribute(attributeName);
+        try {
+
+            WebElement element = DriverWrapperChrome.getChromeDriver().findElement(locator);
+            return element.getAttribute(attributeName);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            Assert.fail("Element not found with this locator "+locator.toString());
+            return "Screenshot taken";
+        }
     }
 
     public WebElement findElementByList(By locator, String comparableText){

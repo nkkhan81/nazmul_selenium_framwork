@@ -1,6 +1,6 @@
 package com.naz.homework_class03_radioButton;
 
-import com.naz.browserInvocation.DriverWrapperChrome;
+import com.naz.base.DriverWrapperChrome;
 import org.testng.annotations.Test;
 
 /**

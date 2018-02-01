@@ -1,10 +1,8 @@
 package com.naz.homework_class03_radioButton;
 
-import com.naz.browserInvocation.DriverWrapperFirefox;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
 
 /**
  * Created by nkkhan on 1/25/18.

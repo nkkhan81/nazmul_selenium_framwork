@@ -1,5 +1,6 @@
 package com.naz.facebook;
 
+import com.naz.base.BasePage;
 import org.openqa.selenium.By;
 
 /**

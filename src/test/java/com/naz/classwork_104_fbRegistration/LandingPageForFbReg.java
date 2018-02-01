@@ -1,6 +1,6 @@
- package com.naz.fbRegistration_classwork_104;
+ package com.naz.classwork_104_fbRegistration;
 
-import com.naz.facebook.BasePage;
+import com.naz.base.BasePage;
 import org.openqa.selenium.By;
 
 /**
@@ -20,7 +20,7 @@ public class LandingPageForFbReg extends BasePage {
     private By selectDayField = By.cssSelector("select#day");
     private By selectYearField = By.cssSelector("select#year");
     private By createAccountButton = By.cssSelector("button[name='websubmit']");
-    private By errorMsgGender = By.xpath("/*[@class='uiContextualLayer uiContextualLayerLeft']/descendant::div[2]");
+    private By errorMsgGender = By.xpath("//*[@class='uiContextualLayer uiContextualLayerLeft']/descendant::div[2]");
 //    private By errorMsgGender = By.tagName("div");
 
     //individual method
@@ -40,16 +40,16 @@ public class LandingPageForFbReg extends BasePage {
         setValueToInputField(newPasswordField,password);
     }
 
-    public void selectMonthFromDropdown(String month){
-        selectDropDownMenu(selectMonthField).selectByVisibleText(month);
+    public void selectMonthFromDropdown(int monthIndexNo){
+        selectDropDownMenuByIndex(selectMonthField, monthIndexNo);
     }
 
     public void selectDayFromDropdown(String day){
-        selectDropDownMenu(selectDayField).selectByValue(day);
+        selectDropDownMenuByVisibleText(selectDayField, day);
     }
 
     public void selectYearFromDropdown(String year){
-        selectDropDownMenu(selectYearField).selectByVisibleText(year);
+        selectDropDownMenuByVisibleText(selectYearField, year);
     }
 
     public void clickOnCreateAccount(){
@@ -65,8 +65,8 @@ public class LandingPageForFbReg extends BasePage {
         insertNewPassword(password);
     }
 
-    public void selectDoB(String month, String day, String year){
-        selectMonthFromDropdown(month);
+    public void selectDoB(int monthIndexNo, String day, String year){
+        selectMonthFromDropdown(monthIndexNo);
         selectDayFromDropdown(day);
         selectYearFromDropdown(year);
         clickOnCreateAccount();

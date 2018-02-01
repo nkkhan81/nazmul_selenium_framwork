@@ -1,9 +1,6 @@
-package com.naz.fbRegistration_classwork_104;
+package com.naz.classwork_104_fbRegistration;
 
-import com.naz.browserInvocation.DriverWrapperChrome;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
+import com.naz.base.DriverWrapperChrome;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -30,7 +27,7 @@ public class verifyRegistration extends DriverWrapperChrome{
         landingPageFb.insertInputField("john","doe","2344567456","Faceoff2233");
         Thread.sleep(1000);
 
-        landingPageFb.selectDoB("Mar","26","1990");
+        landingPageFb.selectDoB(3,"26","1990");
         Thread.sleep(2000);
 
         Assert.assertEquals(landingPageFb.getErrorMsgGender(),"Please choose a gender. You can change who can see this later.");

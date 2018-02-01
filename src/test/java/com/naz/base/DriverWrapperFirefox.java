@@ -1,4 +1,4 @@
-package com.naz.browserInvocation;
+package com.naz.base;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;

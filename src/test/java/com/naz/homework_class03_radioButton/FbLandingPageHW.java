@@ -1,6 +1,6 @@
 package com.naz.homework_class03_radioButton;
 
-import com.naz.facebook.BasePage;
+import com.naz.base.BasePage;
 import org.openqa.selenium.By;
 
 /**

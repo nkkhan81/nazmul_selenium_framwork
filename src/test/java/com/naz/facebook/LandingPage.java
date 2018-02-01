@@ -1,5 +1,6 @@
 package com.naz.facebook;
 
+import com.naz.base.BasePage;
 import org.openqa.selenium.By;
 
 /**
@@ -17,8 +18,18 @@ public class LandingPage extends BasePage {
     private By signUpLink = By.linkText("Sign Up");
     private By forgotAccountLink = By.linkText("Forgot account?");
     private By createPageForCelebrity = By.linkText("Create a Page");
+    private By dataPolicyLink = By.cssSelector("a#privacy-link");
+    private By signUpButtonOnPrivacyPage = By.linkText("Sign Up");
 
     //individual method
+    public void clickOnDataPolicyLink(){
+        clickOn(dataPolicyLink);
+    }
+
+    public void clickOnSignUpButtonOnPrivacyPage(){
+        clickOn(signUpButtonOnPrivacyPage);
+    }
+
     public void insertEmail(String email){
         setValueToInputField(emailField,email);
     }

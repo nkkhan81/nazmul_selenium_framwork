@@ -1,6 +1,6 @@
 package com.naz.facebook;
 
-import com.naz.browserInvocation.DriverWrapperChrome;
+import com.naz.base.DriverWrapperChrome;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

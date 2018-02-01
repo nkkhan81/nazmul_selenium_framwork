@@ -1,12 +1,8 @@
-package com.naz.browserInvocation;
+package com.naz.base;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-
-import java.util.List;
 
 /**
  * Created by nkkhan on 1/24/18.

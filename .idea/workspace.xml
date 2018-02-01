@@ -2,10 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf15176e-81ea-4c46-a998-c59e3b8289fe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/naz/fbRegistration_classwork_104/LandingPageForFbReg.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/naz/fbRegistration_classwork_104/verifyRegistration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/naz/DarkSky/LandingPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/naz/DarkSky/verifytext.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/naz/ExpediaDotCom/LandingPageExpedia.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/naz/ExpediaDotCom/VerifyFlightAutoComplete.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/naz/TargetDotCom_MouseOver/LandingPageTarget.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/naz/TargetDotCom_MouseOver/VerifyMouseOverElement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/naz/classwork_105_amazoneSignIn/LandingPage_Amazon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/naz/classwork_105_amazoneSignIn/VerifyInvalidLogin_amazon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/naz/facebook/VerifySwitchingWindow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/naz/hotelsDotCom/LandingPageHotels.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/naz/hotelsDotCom/VerifyDates.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/naz/w3school_alert/IFramAndAlertPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/naz/w3school_alert/VerifyAlert.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/naz/browserInvocation/SampleTestNGScenarioFirefox.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/naz/browserInvocation/SampleTestNGScenarioPageTitle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/naz/browserInvocation/SampleTestNGScenarioSafari.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/naz/browserInvocation/BasicTestScenario.java" afterPath="$PROJECT_DIR$/src/test/java/com/naz/base/BasicTestScenario.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/naz/browserInvocation/DriverWrapperChrome.java" afterPath="$PROJECT_DIR$/src/test/java/com/naz/base/DriverWrapperChrome.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/naz/browserInvocation/DriverWrapperFirefox.java" afterPath="$PROJECT_DIR$/src/test/java/com/naz/base/DriverWrapperFirefox.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/naz/browserInvocation/DriverWrapperSafari.java" afterPath="$PROJECT_DIR$/src/test/java/com/naz/base/DriverWrapperSafari.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/naz/browserInvocation/SampleTestNGScenarioChrome.java" afterPath="$PROJECT_DIR$/src/test/java/com/naz/base/SampleTestNGScenarioChrome.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/naz/facebook/BasePage.java" afterPath="$PROJECT_DIR$/src/test/java/com/naz/base/BasePage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/naz/fbRegistration_classwork_104/LandingPageForFbReg.java" afterPath="$PROJECT_DIR$/src/test/java/com/naz/classwork_104_fbRegistration/LandingPageForFbReg.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/naz/fbRegistration_classwork_104/verifyRegistration.java" afterPath="$PROJECT_DIR$/src/test/java/com/naz/classwork_104_fbRegistration/verifyRegistration.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/naz/facebook/BasePage.java" afterPath="$PROJECT_DIR$/src/test/java/com/naz/facebook/BasePage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/naz/facebook/LandingPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/naz/facebook/LandingPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/naz/facebook/LoginPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/naz/facebook/LoginPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/naz/facebook/SignUpPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/naz/facebook/SignUpPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/naz/facebook/VerifyInvalidLogin.java" afterPath="$PROJECT_DIR$/src/test/java/com/naz/facebook/VerifyInvalidLogin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/naz/homework_class03_radioButton/FbLandingPageHW.java" afterPath="$PROJECT_DIR$/src/test/java/com/naz/homework_class03_radioButton/FbLandingPageHW.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/naz/homework_class03_radioButton/LocatorDifferentApproch.java" afterPath="$PROJECT_DIR$/src/test/java/com/naz/homework_class03_radioButton/LocatorDifferentApproch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/naz/homework_class03_radioButton/VerifyRadioButton.java" afterPath="$PROJECT_DIR$/src/test/java/com/naz/homework_class03_radioButton/VerifyRadioButton.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,12 +49,25 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="BasePage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/facebook/BasePage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/base/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-395">
-              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="-3640">
+              <caret line="43" column="30" lean-forward="true" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#7592#7600#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LandingPageHotels.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/hotelsDotCom/LandingPageHotels.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,52 +75,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="verifyRegistration.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/fbRegistration_classwork_104/verifyRegistration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-54">
-              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SignUpPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/facebook/SignUpPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-195">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LandingPageForFbReg.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/fbRegistration_classwork_104/LandingPageForFbReg.java">
+      <file leaf-file-name="LandingPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/DarkSky/LandingPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="79" column="9" lean-forward="false" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+              <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1402#1403#0" expanded="true" />
-                <element signature="e#1470#1471#0" expanded="true" />
-                <element signature="e#1773#1774#0" expanded="true" />
-                <element signature="e#1842#1843#0" expanded="true" />
-                <element signature="e#1896#1897#0" expanded="true" />
-                <element signature="e#1973#1974#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VerifyInvalidLogin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/facebook/VerifyInvalidLogin.java">
+      <file leaf-file-name="VerifyDates.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/hotelsDotCom/VerifyDates.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            <state relative-caret-position="120">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="verifytext.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/DarkSky/verifytext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DriverWrapperChrome.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/base/DriverWrapperChrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="37" column="42" lean-forward="false" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,24 +150,50 @@
         <option value="$PROJECT_DIR$/src/test/java/com/naz/browserInvocation/SampleTestNGScenarioPageTitle.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/naz/facebook/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/naz/browserInvocation/BasicTestScenario.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/naz/facebook/LandingPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/naz/browserInvocation/DriverWrapperChrome.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/naz/facebook/VerifyInvalidLogin.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/naz/facebook/SignUpPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/naz/homework_class03_radioButton/VerifyRadioButton.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/naz/homework_class03_radioButton/FbLandingPageHW.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/naz/browserInvocation/DriverWrapperFirefox.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/naz/homework_class03_radioButton/LocatorDifferentApproch.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/naz/facebook/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/naz/fbRegistration_classwork_104/LandingPageForFbReg.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/naz/fbRegistration_classwork_104/verifyRegistration.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/naz/classwork_104_amazoneSignIn/LandingPage_Amazone.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/naz/classwork_104_amazoneSignIn/VerifyInvalidLogin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/naz/classwork_104_amazoneSignIn/VerifyInvalidLogin_amazon.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/naz/browserInvocation/DriverWrapperChrome.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/naz/facebook/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/naz/base/SampleTestNGScenarioChrome.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hotelsDotCom/LandingPageHotels.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hotelsDotCom/VerifyDates.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/naz/facebook/LandingPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/naz/facebook/VerifySwitchingWindow.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/naz/classwork_104_fbRegistration/LandingPageForFbReg.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/naz/classwork_104_fbRegistration/verifyRegistration.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/naz/ExpediaDotCom/LandingPageExpedia.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/naz/ExpediaDotCom/VerifyFlightAutoComplete.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/naz/DhtmlxDotCom/LandingPageDhtmlx.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/naz/TargetDotCom_MouseOver/LandingPageTarget.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/naz/TargetDotCom_MouseOver/VerifyMouseOverElement.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/naz/classwork_105_amazoneSignIn/LandingPage_Amazone.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/naz/classwork_105_amazoneSignIn/LandingPage_Amazon.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/naz/classwork_105_amazoneSignIn/VerifyInvalidLogin_amazon.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/naz/w3school_alert/IFramAndAlert.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/naz/w3school_alert/IFramAndAlertPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/naz/w3school_alert/VerifyAlert.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/naz/hotelsDotCom/verifyCheckInAndOutDate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/naz/base/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/naz/hotelsDotCom/VerifyDates.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/naz/base/DriverWrapperChrome.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/naz/DarkSky/verifytext.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/naz/DarkSky/LandingPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/naz/hotelsDotCom/LandingPageHotels.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
     <option name="width" value="1024" />
-    <option name="height" value="570" />
+    <option name="height" value="640" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -150,8 +213,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -189,100 +253,6 @@
               <option name="myItemId" value="naz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="homework_class03_radioButton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nazmul_seleniumFW" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seleniumFramework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="naz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fbRegistration_classwork_104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nazmul_seleniumFW" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seleniumFramework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="naz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="facebook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nazmul_seleniumFW" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seleniumFramework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="naz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="browserInvocation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -300,24 +270,25 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.naz.classwork_104_amazoneSignIn" />
       <recent name="com.naz.fbRegistration_classwork_104" />
       <recent name="com.naz.browserInvocation" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.verifyRegistration.verifyRegistration">
-    <configuration default="false" name="VerifyInvalidLogin.verifySignUp" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.verifytext.verifyLocalTime (5)">
+    <configuration default="false" name="verifytext.verifyLocalTime" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.naz.facebook.*" />
+          <option name="PATTERN" value="com.naz.DarkSky.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -325,9 +296,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.naz.facebook" />
-      <option name="MAIN_CLASS_NAME" value="com.naz.facebook.VerifyInvalidLogin" />
-      <option name="METHOD_NAME" value="verifySignUp" />
+      <option name="PACKAGE_NAME" value="com.naz.DarkSky" />
+      <option name="MAIN_CLASS_NAME" value="com.naz.DarkSky.verifytext" />
+      <option name="METHOD_NAME" value="verifyLocalTime" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -347,10 +318,10 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="VerifyRadioButton.verifyGenderSelection" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="verifytext.verifyLocalTime (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.naz.homework_class03_radioButton.*" />
+          <option name="PATTERN" value="com.naz.DarkSky.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -358,9 +329,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.naz.homework_class03_radioButton" />
-      <option name="MAIN_CLASS_NAME" value="com.naz.homework_class03_radioButton.VerifyRadioButton" />
-      <option name="METHOD_NAME" value="verifyGenderSelection" />
+      <option name="PACKAGE_NAME" value="com.naz.DarkSky" />
+      <option name="MAIN_CLASS_NAME" value="com.naz.DarkSky.verifytext" />
+      <option name="METHOD_NAME" value="verifyLocalTime" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -380,30 +351,10 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="LocatorDifferentApproch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="verifytext.verifyLocalTime (3)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.naz.homework_class03_radioButton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.naz.homework_class03_radioButton.LocatorDifferentApproch" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="seleniumFramework" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="verifyRegistration.verifyRegistration" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.naz.fbRegistration_classwork_104.*" />
+          <option name="PATTERN" value="com.naz.DarkSky.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -411,9 +362,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.naz.fbRegistration_classwork_104" />
-      <option name="MAIN_CLASS_NAME" value="com.naz.fbRegistration_classwork_104.verifyRegistration" />
-      <option name="METHOD_NAME" value="verifyRegistration" />
+      <option name="PACKAGE_NAME" value="com.naz.DarkSky" />
+      <option name="MAIN_CLASS_NAME" value="com.naz.DarkSky.verifytext" />
+      <option name="METHOD_NAME" value="verifyLocalTime" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -433,10 +384,10 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="verifyRegistration.verifyRegistration (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="verifytext.verifyLocalTime (4)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.naz.fbRegistration_classwork_104.*" />
+          <option name="PATTERN" value="com.naz.DarkSky.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -444,9 +395,42 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.naz.fbRegistration_classwork_104" />
-      <option name="MAIN_CLASS_NAME" value="com.naz.fbRegistration_classwork_104.verifyRegistration" />
-      <option name="METHOD_NAME" value="verifyRegistration" />
+      <option name="PACKAGE_NAME" value="com.naz.DarkSky" />
+      <option name="MAIN_CLASS_NAME" value="com.naz.DarkSky.verifytext" />
+      <option name="METHOD_NAME" value="verifyLocalTime" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="verifytext.verifyLocalTime (5)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.naz.DarkSky.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="seleniumFramework" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.naz.DarkSky" />
+      <option name="MAIN_CLASS_NAME" value="com.naz.DarkSky.verifytext" />
+      <option name="METHOD_NAME" value="verifyLocalTime" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -671,19 +655,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.VerifyInvalidLogin.verifySignUp" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.VerifyRadioButton.verifyGenderSelection" />
-      <item index="2" class="java.lang.String" itemvalue="Application.LocatorDifferentApproch" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.verifyRegistration.verifyRegistration" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.verifyRegistration.verifyRegistration (1)" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.verifytext.verifyLocalTime" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.verifytext.verifyLocalTime (2)" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.verifytext.verifyLocalTime (3)" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.verifytext.verifyLocalTime (4)" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.verifytext.verifyLocalTime (5)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.verifyRegistration.verifyRegistration" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.verifyRegistration.verifyRegistration (1)" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.VerifyRadioButton.verifyGenderSelection" />
-        <item index="3" class="java.lang.String" itemvalue="Application.LocatorDifferentApproch" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.VerifyInvalidLogin.verifySignUp" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.verifytext.verifyLocalTime (5)" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.verifytext.verifyLocalTime (4)" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.verifytext.verifyLocalTime" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.verifytext.verifyLocalTime (3)" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.verifytext.verifyLocalTime (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -701,40 +685,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="verifyRegistration_verifyRegistration - 2018.01.26 at 12h 57m 12s.xml">
-      <configuration name="verifyRegistration.verifyRegistration" configurationId="TestNG" />
+    <history-entry file="verifytext_verifyLocalTime - 2018.02.01 at 16h 31m 34s.xml">
+      <configuration name="verifytext.verifyLocalTime" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="verifyRegistration_verifyRegistration - 2018.01.26 at 15h 40m 24s.xml">
-      <configuration name="verifyRegistration.verifyRegistration" configurationId="TestNG" />
+    <history-entry file="verifytext_verifyLocalTime - 2018.02.01 at 16h 38m 19s.xml">
+      <configuration name="verifytext.verifyLocalTime" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="verifyRegistration_verifyRegistration - 2018.01.26 at 15h 41m 51s.xml">
-      <configuration name="verifyRegistration.verifyRegistration" configurationId="TestNG" />
+    <history-entry file="verifytext_verifyLocalTime - 2018.02.01 at 16h 41m 01s.xml">
+      <configuration name="verifytext.verifyLocalTime" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="verifyRegistration_verifyRegistration - 2018.01.26 at 16h 06m 14s.xml">
-      <configuration name="verifyRegistration.verifyRegistration" configurationId="TestNG" />
+    <history-entry file="verifytext_verifyLocalTime - 2018.02.01 at 16h 43m 59s.xml">
+      <configuration name="verifytext.verifyLocalTime" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="verifyRegistration_verifyRegistration - 2018.01.26 at 16h 37m 56s.xml">
-      <configuration name="verifyRegistration.verifyRegistration" configurationId="TestNG" />
+    <history-entry file="verifytext_verifyLocalTime - 2018.02.01 at 16h 49m 41s.xml">
+      <configuration name="verifytext.verifyLocalTime" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="verifyRegistration_verifyRegistration - 2018.01.26 at 16h 38m 17s.xml">
-      <configuration name="verifyRegistration.verifyRegistration" configurationId="TestNG" />
+    <history-entry file="verifytext_verifyLocalTime_(1) - 2018.02.01 at 16h 30m 00s.xml">
+      <configuration name="verifytext.verifyLocalTime (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="verifyRegistration_verifyRegistration - 2018.01.26 at 16h 41m 29s.xml">
-      <configuration name="verifyRegistration.verifyRegistration" configurationId="TestNG" />
+    <history-entry file="verifytext_verifyLocalTime_(2) - 2018.02.01 at 16h 32m 09s.xml">
+      <configuration name="verifytext.verifyLocalTime (2)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="verifyRegistration_verifyRegistration - 2018.01.26 at 16h 46m 08s.xml">
-      <configuration name="verifyRegistration.verifyRegistration" configurationId="TestNG" />
+    <history-entry file="verifytext_verifyLocalTime_(3) - 2018.02.01 at 16h 33m 58s.xml">
+      <configuration name="verifytext.verifyLocalTime (3)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="verifyRegistration_verifyRegistration - 2018.01.26 at 16h 48m 44s.xml">
-      <configuration name="verifyRegistration.verifyRegistration" configurationId="TestNG" />
+    <history-entry file="verifytext_verifyLocalTime_(4) - 2018.02.01 at 16h 53m 25s.xml">
+      <configuration name="verifytext.verifyLocalTime (4)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="verifyRegistration_verifyRegistration_(1) - 2018.01.26 at 16h 33m 32s.xml">
-      <configuration name="verifyRegistration.verifyRegistration (1)" configurationId="TestNG" />
+    <history-entry file="verifytext_verifyLocalTime_(5) - 2018.02.01 at 16h 56m 09s.xml">
+      <configuration name="verifytext.verifyLocalTime (5)" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1024" height="570" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1024" height="640" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -746,18 +730,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45188284" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33508772" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23625255" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24541752" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24949084" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -765,6 +749,36 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45188284" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24032587" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -778,12 +792,95 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/facebook/BasePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/classwork_104_fbRegistration/LandingPageForFbReg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/base/DriverWrapperChrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="32" column="10" lean-forward="false" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/classwork_105_amazoneSignIn/VerifyInvalidLogin_amazon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/homework_class03_radioButton/VerifyRadioButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#337#338#0" expanded="false" />
+            <element signature="e#391#392#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/base/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7592#7600#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/classwork_104_fbRegistration/verifyRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/facebook/SignUpPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/classwork_104_fbRegistration/LandingPageForFbReg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="79" column="9" lean-forward="false" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/facebook/VerifyInvalidLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/base/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="30" column="35" lean-forward="false" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#7592#7600#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -812,16 +909,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/browserInvocation/DriverWrapperChrome.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/base/DriverWrapperChrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding>
-            <element signature="e#435#436#0" expanded="false" />
-            <element signature="e#470#471#0" expanded="false" />
-            <element signature="e#507#508#0" expanded="false" />
-            <element signature="e#533#534#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -840,16 +932,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/browserInvocation/SampleTestNGScenarioChrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -858,7 +940,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/browserInvocation/DriverWrapperSafari.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/base/DriverWrapperSafari.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
@@ -873,15 +955,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/browserInvocation/SampleTestNGScenarioFirefox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/browserInvocation/SampleTestNGScenarioSafari.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/base/SampleTestNGScenarioSafari.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
@@ -889,37 +963,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/browserInvocation/SampleTestNGScenarioPageTitle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/browserInvocation/DriverWrapperChrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding>
-            <element signature="e#435#436#0" expanded="false" />
-            <element signature="e#470#471#0" expanded="false" />
-            <element signature="e#507#508#0" expanded="false" />
-            <element signature="e#533#534#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/homework_class03_radioButton/FbLandingPageHW.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="28" column="66" lean-forward="false" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/browserInvocation/DriverWrapperFirefox.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/base/DriverWrapperFirefox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="12" column="57" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="57" />
@@ -927,40 +971,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/browserInvocation/BasicTestScenario.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/facebook/SignUpPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/homework_class03_radioButton/VerifyRadioButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#350#351#0" expanded="false" />
-            <element signature="e#404#405#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/homework_class03_radioButton/LocatorDifferentApproch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/facebook/LandingPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -970,58 +984,264 @@
         <state relative-caret-position="210">
           <caret line="14" column="54" lean-forward="false" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
           <folding>
-            <element signature="e#283#284#0" expanded="false" />
-            <element signature="e#344#345#0" expanded="false" />
+            <element signature="e#313#314#0" expanded="false" />
+            <element signature="e#374#375#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/homework_class03_radioButton/LocatorDifferentApproch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/homework_class03_radioButton/VerifyRadioButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#337#338#0" expanded="false" />
+            <element signature="e#391#392#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/base/SampleTestNGScenarioFirefox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/base/SampleTestNGScenarioPageTitle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/base/SampleTestNGScenarioChrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/base/BasicTestScenario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/facebook/VerifyInvalidLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="330">
           <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/fbRegistration_classwork_104/LandingPageForFbReg.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/facebook/LandingPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="79" column="9" lean-forward="false" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+        <state relative-caret-position="159">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1402#1403#0" expanded="true" />
-            <element signature="e#1470#1471#0" expanded="true" />
-            <element signature="e#1773#1774#0" expanded="true" />
-            <element signature="e#1842#1843#0" expanded="true" />
-            <element signature="e#1896#1897#0" expanded="true" />
-            <element signature="e#1973#1974#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="false" />
+            <element signature="e#877#878#0" expanded="false" />
+            <element signature="e#930#931#0" expanded="false" />
+            <element signature="e#980#981#0" expanded="false" />
+            <element signature="e#1221#1222#0" expanded="false" />
+            <element signature="e#1257#1258#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/facebook/SignUpPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/facebook/VerifySwitchingWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-195">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="135">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/homework_class03_radioButton/FbLandingPageHW.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/facebook/BasePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/classwork_104_fbRegistration/verifyRegistration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-395">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="273">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/classwork_104_fbRegistration/LandingPageForFbReg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="68" column="44" lean-forward="false" selection-start-line="68" selection-start-column="44" selection-end-line="68" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/TargetDotCom_MouseOver/LandingPageTarget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="17" column="56" lean-forward="false" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/TargetDotCom_MouseOver/VerifyMouseOverElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/classwork_105_amazoneSignIn/VerifyInvalidLogin_amazon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/classwork_105_amazoneSignIn/LandingPage_Amazon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="60" column="31" lean-forward="false" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
+          <folding>
+            <element signature="e#1294#1295#0" expanded="false" />
+            <element signature="e#1331#1332#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/w3school_alert/IFramAndAlertPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/w3school_alert/VerifyAlert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/hotelsDotCom/verifyCheckInAndOutDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/ExpediaDotCom/LandingPageExpedia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/ExpediaDotCom/VerifyFlightAutoComplete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="81" lean-forward="true" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/base/DriverWrapperChrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="37" column="42" lean-forward="false" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/fbRegistration_classwork_104/verifyRegistration.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/base/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="-3640">
+          <caret line="43" column="30" lean-forward="true" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7592#7600#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/text/DateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2127">
+          <caret line="309" column="0" lean-forward="false" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/DarkSky/verifytext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/DarkSky/LandingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/hotelsDotCom/VerifyDates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/naz/hotelsDotCom/LandingPageHotels.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

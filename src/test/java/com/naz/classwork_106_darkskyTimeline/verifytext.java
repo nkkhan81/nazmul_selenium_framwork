@@ -1,4 +1,4 @@
-package com.naz.DarkSky;
+package com.naz.classwork_106_darkskyTimeline;
 
 import com.naz.base.DriverWrapperChrome;
 import org.testng.annotations.Test;
@@ -9,13 +9,13 @@ import org.testng.annotations.Test;
 public class verifytext extends DriverWrapperChrome {
 
     @Test
-    public void verifyTimeText(){
+    public void verifyTimelineText(){
         LandingPage landingPage = new LandingPage();
-        landingPage.printElement();
+        landingPage.printTimelineText();
     }
     @Test
-    public void verifyLocalTime(){
+    public void verifyTimeLine(){
         LandingPage landingPage = new LandingPage();
-        landingPage.compareElement();
+        landingPage.compareTimeLineWithLocalTime();
     }
 }

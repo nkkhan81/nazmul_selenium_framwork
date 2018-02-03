@@ -18,6 +18,7 @@ public class DriverWrapperChrome {
     private static String hoverOver3 = "https://www.target.com/";
     private static String alert = "https://www.w3schools.com/js/tryit.asp?filename=tryjs_prompt";
     private static String darkSky = "https://darksky.net/";
+    private static String classTest = "file:///Users/nkkhan/Projects/technoSoft/javaProjects/seleniumFramework/index.html";
 
     public static WebDriver getChromeDriver() {
         return chromeDriver;
@@ -35,7 +36,7 @@ public class DriverWrapperChrome {
     public void driverInitialization(){
         System.setProperty("webdriver.chrome.driver","/Users/nkkhan/Projects/technoSoft/webDrivers/chromedriver");
         this.chromeDriver = new ChromeDriver();
-        chromeDriver.navigate().to(darkSky);
+        chromeDriver.navigate().to(classTest);
     }
 
     @AfterClass

@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 /**
  * Created by nkkhan on 2/3/18.
  */
-public class Test1 {
+public class Test1_ReverseString {
 
     public static void reverseEverything(String s){
         char[] givenString = new char[s.length()];

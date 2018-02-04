@@ -20,7 +20,7 @@ b)	Fetch each food name and its servings and store them in a Map.
 Iterate through all the entries in the Map and print them.
 
 */
-public class Test2 extends DriverWrapperChrome{
+public class Test2_PrintingElements extends DriverWrapperChrome{
 
     @Test
     public void displayThirdAndFifthFoodItem(){

@@ -1,6 +1,7 @@
 package com.naz.facebook;
 
 import com.naz.base.BasePage;
+import com.naz.base.BasePaseJS;
 import org.openqa.selenium.By;
 
 /**
@@ -18,11 +19,12 @@ public class LandingPage extends BasePage {
     private By signUpLink = By.linkText("Sign Up");
     private By forgotAccountLink = By.linkText("Forgot account?");
     private By createPageForCelebrity = By.linkText("Create a Page");
-    private By dataPolicyLink = By.cssSelector("a#privacy-link");
+    private By dataPolicyLink = By.xpath("//a[@id='privacy-link']");
     private By signUpButtonOnPrivacyPage = By.linkText("Sign Up");
 
     //individual method
-    public void clickOnDataPolicyLink(){
+    public void clickOnDataPolicyLink() throws InterruptedException {
+        BasePaseJS.ScrollDownPage(0,200);
         clickOn(dataPolicyLink);
     }
 
@@ -42,7 +44,8 @@ public class LandingPage extends BasePage {
         clickOn(loginButton);
     }
 
-    public void clickOnSignUpLink(){
+    public void clickOnSignUpLink() throws InterruptedException {
+        BasePaseJS.ScrollDownPage(0,400);
         clickOn(signUpLink);
     }
 

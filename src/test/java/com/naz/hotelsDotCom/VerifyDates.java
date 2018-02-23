@@ -20,7 +20,7 @@ public class VerifyDates extends DriverWrapperChrome {
     public void verifyCustomDate() {
         LandingPageHotels landingPageH = new LandingPageHotels();
         try {
-            landingPageH.selectCustomDate("06-23-2018");
+            landingPageH.selectCustomDate("2-3-2019");
         } catch (ParseException e) {
             e.printStackTrace();
         }

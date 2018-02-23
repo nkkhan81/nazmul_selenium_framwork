@@ -21,5 +21,6 @@ public class LandingPageExpedia extends BasePage{
 
     public void selectAirport(String inputText, String searchText) throws InterruptedException {
         selectFromAutoCompleteMenu(originFlightField,inputText,autoCompleteList,searchText);
+        System.out.println(getTextFromElement(originFlightField));
     }
 }

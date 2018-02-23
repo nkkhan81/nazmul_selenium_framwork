@@ -20,10 +20,11 @@ public class VerifyInvalidLogin extends DriverWrapperChrome {
     }
 
     @Test
-    public void verifySignUp(){
+    public void verifySignUp() throws InterruptedException {
         landingPage.clickOnSignUpLink();
         signUpPage.signUpFacebook("John","Doe","2222222222","test222");
         signUpPage.getDefaultTextFirstNameField("aria-label");
+        signUpPage.verifyGenderErrorMessage();
     }
 
 

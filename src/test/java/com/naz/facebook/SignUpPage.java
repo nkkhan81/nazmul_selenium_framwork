@@ -2,6 +2,7 @@ package com.naz.facebook;
 
 import com.naz.base.BasePage;
 import org.openqa.selenium.By;
+import org.testng.Assert;
 
 /**
  * Created by nkkhan on 1/24/18.
@@ -15,6 +16,7 @@ public class SignUpPage extends BasePage {
     private By newPasswordField = By.xpath("//input[contains(@autocomplete,'new')]");
     private By createAccountButton = By.xpath("//button[@name='websubmit']");
     private By firstNameFieldDefaultText = By.name("firstname");
+    private By genderErrorMessageField = By.xpath("//div[@class='uiContextualLayer uiContextualLayerLeft']/div/div");
 
     //Methods
     public  void insertFirstName(String firstName){
@@ -42,5 +44,8 @@ public class SignUpPage extends BasePage {
         insertMobileNumber(mobileNumber);
         insertNewPassword(newPassword);
         clickOnCreateAccountButton();
+    }
+    public void verifyGenderErrorMessage(){
+        Assert.assertEquals(getTextFromElement(genderErrorMessageField),"Please choose a gender. You can change who can see this later.");
     }
 }

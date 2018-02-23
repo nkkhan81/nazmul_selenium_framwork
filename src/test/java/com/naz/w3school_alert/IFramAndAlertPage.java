@@ -22,7 +22,7 @@ public class IFramAndAlertPage extends BasePage{
     public void additionalAction() throws InterruptedException {
 
         //just for experiment, navigating driver out of frame(original page)
-        getDriver().navigate().to(DriverWrapperChrome.getAlert());
+        getDriver().navigate().to("https://www.w3schools.com/js/tryit.asp?filename=tryjs_prompt");
 
         //click on home button. That open home page in a new tab
         clickOn(homeButton);

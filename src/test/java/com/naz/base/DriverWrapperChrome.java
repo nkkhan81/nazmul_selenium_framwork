@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeClass;
  */
 public class DriverWrapperChrome {
     private static WebDriver chromeDriver;
-    private static String url = "https://www.facebook.com/";
+    private static String facebook_url = "https://www.facebook.com/";
     private static String hoverOver1 ="https://www.amazon.com/";
     private static String dateExample = "https://www.hotels.com/";
     private static String autoComplete = "https://www.expedia.com/";
@@ -19,24 +19,23 @@ public class DriverWrapperChrome {
     private static String alert = "https://www.w3schools.com/js/tryit.asp?filename=tryjs_prompt";
     private static String darkSky = "https://darksky.net/";
     private static String classTest = "file:///Users/nkkhan/Projects/technoSoft/javaProjects/seleniumFramework/index.html";
+    private static String alaska = "https://www.alaskaair.com/";
 
     public static WebDriver getChromeDriver() {
         return chromeDriver;
     }
 
-    public static String getUrl() {
-        return alert;
+    public static String getFacebook_url() {
+        return facebook_url;
     }
 
-    public static String getAlert() {
-        return alert;
-    }
 
     @BeforeClass
     public void driverInitialization(){
         System.setProperty("webdriver.chrome.driver","/Users/nkkhan/Projects/technoSoft/webDrivers/chromedriver");
         this.chromeDriver = new ChromeDriver();
-        chromeDriver.navigate().to(classTest);
+//        chromeDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        chromeDriver.navigate().to(facebook_url);
     }
 
     @AfterClass
